@@ -14,8 +14,8 @@ install:
   - echo y | sdkmanager 'lldb;3.0'
 
 before_install:
-  - chmod +x .//gradlew
+  - chmod +x ./gradlew
 
 script:
-  - cd 
+  
   - ./gradlew assembleRelease
